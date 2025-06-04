@@ -1,91 +1,104 @@
 {
-	"common": {
-		"name": "sync-states",
-		"version": "0.0.1",
-		"news": {
-			"0.0.1": {
-				"en": "initial release",
-				"de": "Erstveröffentlichung",
-				"ru": "Начальная версия",
-				"pt": "lançamento inicial",
-				"nl": "Eerste uitgave",
-				"fr": "Première version",
-				"it": "Versione iniziale",
-				"es": "Versión inicial",
-				"pl": "Pierwsze wydanie",
-				"uk": "Початкова версія",
-				"zh-cn": "首次出版"
-			}
-		},
-		"titleLang": {
-			"en": "SynchStates",
-			"de": "Synchronisation",
-			"ru": "Синхты",
-			"pt": "Sincronizado",
-			"nl": "Synchronisatie",
-			"fr": "Synchstates",
-			"it": "Sincronizzati",
-			"es": "Sincronización",
-			"pl": "Synchstaty",
-			"uk": "Синхронізовані",
-			"zh-cn": "同步"
-		},
-		"desc": {
-			"en": "Synchronizes objects states",
-			"de": "Synchronisierung von Objektzuständen",
-			"ru": "Синхронизирует состояния объектов",
-			"pt": "Sincroniza os objetos estados",
-			"nl": "Synchroniseert objectenstaten",
-			"fr": "Synchronise les états d'objets",
-			"it": "Sincronizza gli stati degli oggetti",
-			"es": "Sincroniza los estados de objetos",
-			"pl": "Synchronizuje stany obiektów",
-			"uk": "Синхронізує об'єкти станів",
-			"zh-cn": "同步对象状态"
-		},
-		"authors": [
-			"AdrianSchyja <adrian.schyja@googlemail.com>"
-		],
-		"keywords": [
-			"ioBroker",
-			"template",
-			"Smart Home",
-			"home automation"
-		],
-		"licenseInformation": {
-			"type": "free",
-			"license": "MIT"
-		},
-		"platform": "Javascript/Node.js",
-		"icon": "sync-states.png",
-		"enabled": true,
-		"extIcon": "https://raw.githubusercontent.com/AdrianSchyja/ioBroker.sync-states/main/admin/sync-states.png",
-		"readme": "https://github.com/AdrianSchyja/ioBroker.sync-states/blob/main/README.md",
-		"loglevel": "info",
-		"tier": 3,
-		"mode": "daemon",
-		"type": "logic",
-		"compact": true,
-		"connectionType": "local",
-		"dataSource": "assumption",
-		"adminUI": {
-			"config": "json"
-		},
-		"dependencies": [
-			{
-				"js-controller": ">=6.0.11"
-			}
-		],
-		"globalDependencies": [
-			{
-				"admin": "7.0.23"
-			}
-		]
-	},
-	"native": {
-		"option1": true,
-		"option2": "42"
-	},
-	"objects": [],
-	"instanceObjects": []
+  "common": {
+    "name": "sync-states",
+    "version": "0.0.2-alpha.0",
+    "news": {
+      "0.0.2-alpha.0": {
+        "en": "initial release",
+        "de": "erstausstrahlung",
+        "ru": "первоначальное освобождение",
+        "pt": "lançamento inicial",
+        "nl": "eerste release",
+        "fr": "libération initiale",
+        "it": "rilascio iniziale",
+        "es": "liberación inicial",
+        "pl": "początkowe zwolnienie",
+        "uk": "початковий реліз",
+        "zh-cn": "初步释放"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "uk": "Початкова версія",
+        "zh-cn": "首次出版"
+      }
+    },
+    "titleLang": {
+      "en": "SynchStates",
+      "de": "Synchronisation",
+      "ru": "Синхты",
+      "pt": "Sincronizado",
+      "nl": "Synchronisatie",
+      "fr": "Synchstates",
+      "it": "Sincronizzati",
+      "es": "Sincronización",
+      "pl": "Synchstaty",
+      "uk": "Синхронізовані",
+      "zh-cn": "同步"
+    },
+    "desc": {
+      "en": "Synchronizes objects states",
+      "de": "Synchronisierung von Objektzuständen",
+      "ru": "Синхронизирует состояния объектов",
+      "pt": "Sincroniza os objetos estados",
+      "nl": "Synchroniseert objectenstaten",
+      "fr": "Synchronise les états d'objets",
+      "it": "Sincronizza gli stati degli oggetti",
+      "es": "Sincroniza los estados de objetos",
+      "pl": "Synchronizuje stany obiektów",
+      "uk": "Синхронізує об'єкти станів",
+      "zh-cn": "同步对象状态"
+    },
+    "authors": [
+      "AdrianSchyja <adrian.schyja@googlemail.com>"
+    ],
+    "keywords": [
+      "ioBroker",
+      "template",
+      "Smart Home",
+      "home automation"
+    ],
+    "licenseInformation": {
+      "type": "free",
+      "license": "MIT"
+    },
+    "platform": "Javascript/Node.js",
+    "icon": "sync-states.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/AdrianSchyja/ioBroker.sync-states/main/admin/sync-states.png",
+    "readme": "https://github.com/AdrianSchyja/ioBroker.sync-states/blob/main/README.md",
+    "loglevel": "info",
+    "tier": 3,
+    "mode": "daemon",
+    "type": "logic",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "assumption",
+    "adminUI": {
+      "config": "json"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=6.0.11"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": "7.0.23"
+      }
+    ]
+  },
+  "native": {
+    "option1": true,
+    "option2": "42"
+  },
+  "objects": [],
+  "instanceObjects": []
 }
