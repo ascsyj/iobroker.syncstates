@@ -106,6 +106,7 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 	### **WORK IN PROGRESS**
 -->
 ### **WORK IN PROGRESS**
+* (AdrianSchyja) initial release
 
 ### 0.0.2-alpha.0 (2025-06-04)
 * (AdrianSchyja) initial release
